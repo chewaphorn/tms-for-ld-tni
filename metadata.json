@@ -1,0 +1,8 @@
+{
+  "name": "TMS 4LD",
+  "description": "ระบบบริหารจัดการการขนส่ง (TMS 4LD) ติดตามตำแหน่งรถเรียลไทม์พร้อมการบอกทิศทาง, เพิ่มอุปกรณ์ GPS, จัดเส้นทางกำหนดจุดรับ-ส่งสินค้าในทริป และคำนวณสถิติเส้นทางต่อเที่ยวอย่างหมดจด",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

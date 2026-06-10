@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Prompt:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;550&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Prompt", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom CSS overrides for Leaflet elements and interactive widgets */
+.leaflet-container {
+  font-family: "Prompt", "Inter", sans-serif;
+}
+
+/* Ensure pulsing animations do not cause overflow and run seamlessly */
+@keyframes pulse-custom {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: .5;
+    transform: scale(1.15);
+  }
+}
